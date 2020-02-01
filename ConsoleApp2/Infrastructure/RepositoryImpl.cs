@@ -13,7 +13,6 @@ namespace ConsoleApp2.Infrastructure
         public RepositoryImpl(DataContext context)
             : base(context)
         {
-
         }
 
         public virtual TEntity FindById(int id)
